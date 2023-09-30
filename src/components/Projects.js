@@ -3,6 +3,11 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
+import projImg8 from "../assets/img/project-img8.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,34 +16,44 @@ export const Projects = () => {
 
 	const projects = [
 		{
-			title: "Business Startup",
-			description: "Design & Development",
+			title: "Facebook Clone",
+			description: "Front end",
 			imgUrl: projImg1,
 		},
 		{
-			title: "Web Development",
-			description: "Design & Development",
+			title: "Email Spam Classification",
+			description: "Python Program",
 			imgUrl: projImg2,
 		},
 		{
-			title: "Business Startup",
-			description: "Design & Development",
+			title: "Restaurant Website",
+			description: "Front-End & Little bit Backend",
 			imgUrl: projImg3,
 		},
 		{
-			title: "Business Startup",
-			description: "Design & Development",
-			imgUrl: projImg1,
+			title: "Traveling Website",
+			description: "Frontend",
+			imgUrl: projImg4,
 		},
 		{
-			title: "Business Startup",
+			title: "Adidas Landing Page",
 			description: "Design & Development",
-			imgUrl: projImg2,
+			imgUrl: projImg5,
 		},
 		{
-			title: "Business Startup",
+			title: "Netflix Clone Page",
 			description: "Design & Development",
-			imgUrl: projImg3,
+			imgUrl: projImg6,
+		},
+		{
+			title: "Simplex Web Clone",
+			description: "Design & Development",
+			imgUrl: projImg7,
+		},
+		{
+			title: "Driving Website",
+			description: "Frontend & Bootstrap",
+			imgUrl: projImg8,
 		},
 	];
 
@@ -51,7 +66,7 @@ export const Projects = () => {
 							{({ isVisible }) =>
 								<div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
 									<h2>Projects</h2>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+									<p>As a college student, I undertook diverse projects, including a driving website, Simplex web clone, Netflix clone page, Adidas landing page, traveling website, restaurant website, email spam classification, and Facebook clone, showcasing my versatile skills.</p>
 									<Tab.Container id="projects-tabs" defaultActiveKey="first">
 										<Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
 											<Nav.Item>
